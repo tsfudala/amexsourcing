@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="ASL Import Set" max_length="40" name="x_24859_amex_src_asl_import_set" type="collection">
+        <element attributes="import_attribute_name=acw_status,edge_encryption_enabled=true" label="acw_status" max_length="66" name="u_acw_status" type="string"/>
+        <element attributes="import_attribute_name=aemp10_service_category,edge_encryption_enabled=true" label="aemp10_service_category" max_length="52" name="u_aemp10_service_category" type="string"/>
+        <element attributes="import_attribute_name=alias,edge_encryption_enabled=true" label="alias" max_length="40" name="u_alias" type="string"/>
+        <element attributes="import_attribute_name=asl_id" label="asl_id" max_length="40" name="u_asl_id" type="integer"/>
+        <element attributes="import_attribute_name=asl_review_type,edge_encryption_enabled=true" label="asl_review_type" max_length="40" name="u_asl_review_type" type="string"/>
+        <element attributes="import_attribute_name=asl_status,edge_encryption_enabled=true" label="asl_status" max_length="40" name="u_asl_status" type="string"/>
+        <element attributes="import_attribute_name=comments,edge_encryption_enabled=true" label="comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="import_attribute_name=commodity_level_1,edge_encryption_enabled=true" label="commodity_level_1" max_length="40" name="u_commodity_level_1" type="string"/>
+        <element attributes="import_attribute_name=commodity_level_2,edge_encryption_enabled=true" label="commodity_level_2" max_length="42" name="u_commodity_level_2" type="string"/>
+        <element attributes="import_attribute_name=commodity_level_3,edge_encryption_enabled=true" label="commodity_level_3" max_length="53" name="u_commodity_level_3" type="string"/>
+        <element attributes="import_attribute_name=commodity_level_4,edge_encryption_enabled=true" label="commodity_level_4" max_length="53" name="u_commodity_level_4" type="string"/>
+        <element attributes="import_attribute_name=contract_id,edge_encryption_enabled=true" label="contract_id" max_length="40" name="u_contract_id" type="string"/>
+        <element attributes="import_attribute_name=diverse_supplier,edge_encryption_enabled=true" label="diverse_supplier" max_length="40" name="u_diverse_supplier" type="string"/>
+        <element attributes="import_attribute_name=email,edge_encryption_enabled=true" label="email" max_length="40" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=estimated_lifetime_contract_spend,edge_encryption_enabled=true" label="estimated_lifetime_contract_spend" max_length="40" name="u_estimated_li_contract_spend" type="string"/>
+        <element attributes="import_attribute_name=expiration_date,edge_encryption_enabled=true" label="expiration_date" max_length="40" name="u_expiration_date" type="string"/>
+        <element attributes="import_attribute_name=gsm_director,edge_encryption_enabled=true" label="gsm_director" max_length="40" name="u_gsm_director" type="string"/>
+        <element attributes="import_attribute_name=gsm_dir_emp_id,edge_encryption_enabled=true" label="gsm_dir_emp_id" max_length="40" name="u_gsm_dir_emp_id" type="string"/>
+        <element attributes="import_attribute_name=gsm_vp,edge_encryption_enabled=true" label="gsm_vp" max_length="40" name="u_gsm_vp" type="string"/>
+        <element attributes="import_attribute_name=gsm_vp_emp_id,edge_encryption_enabled=true" label="gsm_vp_emp_id" max_length="40" name="u_gsm_vp_emp_id" type="string"/>
+        <element attributes="import_attribute_name=highest_risk_country_1,edge_encryption_enabled=true" label="highest_risk_country_1" max_length="40" name="u_highest_risk_country_1" type="string"/>
+        <element attributes="import_attribute_name=highest_risk_country_2,edge_encryption_enabled=true" label="highest_risk_country_2" max_length="40" name="u_highest_risk_country_2" type="string"/>
+        <element attributes="import_attribute_name=highest_risk_country_3,edge_encryption_enabled=true" label="highest_risk_country_3" max_length="40" name="u_highest_risk_country_3" type="string"/>
+        <element attributes="import_attribute_name=how_to_buy_text,edge_encryption_enabled=true" label="how_to_buy_text" max_length="112" name="u_how_to_buy_text" type="string"/>
+        <element attributes="import_attribute_name=interacts_with_government_to_deliver,edge_encryption_enabled=true" label="interacts_with_government_to_deliver" max_length="40" name="u_interacts_wi_ent_to_deliver" type="string"/>
+        <element attributes="import_attribute_name=keywords,edge_encryption_enabled=true" label="keywords" max_length="40" name="u_keywords" type="string"/>
+        <element attributes="import_attribute_name=location_of_services_from,edge_encryption_enabled=true" label="location_of_services_from" max_length="197" name="u_location_of_services_from" type="string"/>
+        <element attributes="import_attribute_name=location_of_services_to,edge_encryption_enabled=true" label="location_of_services_to" max_length="430" name="u_location_of_services_to" type="string"/>
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="name" max_length="54" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=parent_tlm_id,edge_encryption_enabled=true" label="parent_tlm_id" max_length="40" name="u_parent_tlm_id" type="string"/>
+        <element attributes="import_attribute_name=phone,edge_encryption_enabled=true" label="phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="import_attribute_name=po_enabled,edge_encryption_enabled=true" label="po_enabled" max_length="40" name="u_po_enabled" type="string"/>
+        <element attributes="import_attribute_name=preferred_supplier,edge_encryption_enabled=true" label="preferred_supplier" max_length="40" name="u_preferred_supplier" type="string"/>
+        <element attributes="import_attribute_name=primary_contact,edge_encryption_enabled=true" label="primary_contact" max_length="40" name="u_primary_contact" type="string"/>
+        <element attributes="import_attribute_name=publicly_traded,edge_encryption_enabled=true" label="publicly_traded" max_length="107" name="u_publicly_traded" type="string"/>
+        <element attributes="import_attribute_name=requested_for,edge_encryption_enabled=true" label="requested_for" max_length="40" name="u_requested_for" type="string"/>
+        <element attributes="import_attribute_name=risk_tier,edge_encryption_enabled=true" label="risk_tier" max_length="40" name="u_risk_tier" type="string"/>
+        <element attributes="import_attribute_name=service_details,edge_encryption_enabled=true" label="service_details" max_length="160" name="u_service_details" type="string"/>
+        <element attributes="import_attribute_name=sra10_acdd_commodity,edge_encryption_enabled=true" label="sra10_acdd_commodity" max_length="40" name="u_sra10_acdd_commodity" type="string"/>
+        <element attributes="import_attribute_name=sra1_pii,edge_encryption_enabled=true" label="sra1_pii" max_length="40" name="u_sra1_pii" type="string"/>
+        <element attributes="import_attribute_name=sra2_business_critical,edge_encryption_enabled=true" label="sra2_business_critical" max_length="40" name="u_sra2_business_critical" type="string"/>
+        <element attributes="import_attribute_name=sra3a_service_provider_critical_high,edge_encryption_enabled=true" label="sra3a_service_provider_critical_high" max_length="40" name="u_sra3a_servic__critical_high" type="string"/>
+        <element attributes="import_attribute_name=sra3b_service_provider_other,edge_encryption_enabled=true" label="sra3b_service_provider_other" max_length="40" name="u_sra3b_service_provider_other" type="string"/>
+        <element attributes="import_attribute_name=sra5_cash_or_equivalents,edge_encryption_enabled=true" label="sra5_cash_or_equivalents" max_length="40" name="u_sra5_cash_or_equivalents" type="string"/>
+        <element attributes="import_attribute_name=sra6_direct_competitors,edge_encryption_enabled=true" label="sra6_direct_competitors" max_length="40" name="u_sra6_direct_competitors" type="string"/>
+        <element attributes="import_attribute_name=sra7_financial_transactions,edge_encryption_enabled=true" label="sra7_financial_transactions" max_length="40" name="u_sra7_financial_transactions" type="string"/>
+        <element attributes="import_attribute_name=sra8_axp_data_tech_systems,edge_encryption_enabled=true" label="sra8_axp_data_tech_systems" max_length="40" name="u_sra8_axp_data_tech_systems" type="string"/>
+        <element attributes="import_attribute_name=sra9_acdd_entities,edge_encryption_enabled=true" label="sra9_acdd_entities" max_length="40" name="u_sra9_acdd_entities" type="string"/>
+        <element attributes="import_attribute_name=subcontracts_used_to_deliver,edge_encryption_enabled=true" label="subcontracts_used_to_deliver" max_length="40" name="u_subcontracts_used_to_deliver" type="string"/>
+        <element attributes="import_attribute_name=tlm_workflow_id,edge_encryption_enabled=true" label="tlm_workflow_id" max_length="40" name="u_tlm_workflow_id" type="string"/>
+    </element>
+</database>

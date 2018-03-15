@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_serviceorder_product_model" label="AMEX Sourcing Request Template" max_length="40" name="x_24859_amex_sourcing_request_template" type="collection"/>
+</database>

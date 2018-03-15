@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>false</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_24859_amex_src_admin" name="x_24859_amex_src_admin">766f0667db3a3200a0b2d100cf961936</admin_role>
+        <agent_role display_value="x_24859_amex_src_agent" name="x_24859_amex_src_agent">036f0667db3a3200a0b2d100cf96193a</agent_role>
+        <app_name>amex_sourcing</app_name>
+        <approval>false</approval>
+        <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
+        <approver_role display_value="x_24859_amex_src_approver_user" name="x_24859_amex_src_approver_user">4b6f0667db3a3200a0b2d100cf96193c</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>false</auto_dispatch>
+        <basic_role display_value="x_24859_amex_src_basic" name="x_24859_amex_src_basic">836f0667db3a3200a0b2d100cf96193f</basic_role>
+        <catalog display_value="AMEX Sourcing Catalog">b78f0e67db3a3200a0b2d100cf9619c0</catalog>
+        <created_with_version>Istanbul: 04-14-2017_1324</created_with_version>
+        <disabled_processes/>
+        <dispatch_group_type display_value="amex_sourcing_dispatch">197fc667db3a3200a0b2d100cf961903</dispatch_group_type>
+        <dispatch_queue>false</dispatch_queue>
+        <dispatcher_role display_value="x_24859_amex_src_dispatcher" name="x_24859_amex_src_dispatcher">436f0667db3a3200a0b2d100cf961942</dispatcher_role>
+        <follow_the_sun_priority>{value:,type:,display:}</follow_the_sun_priority>
+        <geolocation_maps>false</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_24859_amex_src_initiator" name="x_24859_amex_src_initiator">4f6f0667db3a3200a0b2d100cf961944</initiator_role>
+        <kbase display_value="AMEX Sourcing Knowledge">3b8f0e67db3a3200a0b2d100cf9619d3</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>true</limit_by_location>
+        <main_model_category display_value="AMEX Sourcing Request Template">2e8f4a67db3a3200a0b2d100cf9619ff</main_model_category>
+        <main_model_table>x_24859_amex_sourcing_request_template</main_model_table>
+        <main_state_flow_table>sf_x_24859_amex_sourcing_request</main_state_flow_table>
+        <main_table>x_24859_amex_sourcing_request</main_table>
+        <managed_docs>false</managed_docs>
+        <mandatory_work_notes>false</mandatory_work_notes>
+        <name>AMEX Sourcing</name>
+        <part_requirement>false</part_requirement>
+        <pdf_order_summary>false</pdf_order_summary>
+        <property_prefix>x_24859_amex_src</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type/>
+        <qualifier_role/>
+        <read_role display_value="x_24859_amex_src_read" name="x_24859_amex_src_read">cf6f0667db3a3200a0b2d100cf961949</read_role>
+        <request_dispatch_method>workflow</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>true</request_driven>
+        <rollup_work_notes>false</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <signature_capture>false</signature_capture>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c59f8e67db3a3200a0b2d100cf96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMEX Sourcing</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sm_config_c59f8e67db3a3200a0b2d100cf96195b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:24</sys_updated_on>
+        <task_activities>false</task_activities>
+        <task_dispatch_method>workflow</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="AMEX Sourcing Task Template">268f8a67db3a3200a0b2d100cf961900</task_model_category>
+        <task_model_table>x_24859_amex_sourcing_task_template</task_model_table>
+        <task_state_flow_table>sf_x_24859_amex_sourcing_task</task_state_flow_table>
+        <task_table>x_24859_amex_sourcing_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>false</templates_to_catalog>
+        <track_travel>false</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_location>true</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>true</use_sf>
+        <use_skill>all</use_skill>
+        <use_timezone>true</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="amex_sourcing_vendor">997fc667db3a3200a0b2d100cf961903</vendor_group_type>
+        <work_group_type display_value="amex_sourcing">117fc667db3a3200a0b2d100cf961903</work_group_type>
+    </sm_config>
+</record_update>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sf_sm_flow" label="AMEX Sourcing Task Flow" max_length="40" name="sf_x_24859_amex_sourcing_task" type="collection"/>
+</database>

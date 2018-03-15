@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9d9f8e67db3a3200a0b2d100cf961981</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config_module">
+    <sm_config_module action="INSERT_OR_UPDATE">
+        <app_name display_value="AMEX Sourcing">c59f8e67db3a3200a0b2d100cf96195b</app_name>
+        <aspect>approval</aspect>
+        <associated_mobile_module/>
+        <associated_module display_value="My Approvals">5d9f8e67db3a3200a0b2d100cf96197f</associated_module>
+        <on>true</on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:25</sys_created_on>
+        <sys_id>9d9f8e67db3a3200a0b2d100cf961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:25</sys_updated_on>
+    </sm_config_module>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0e9fce67db3a3200a0b2d100cf961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMEX Sourcing</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_metadata_link_0e9fce67db3a3200a0b2d100cf961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:28</sys_updated_on>
+        <tablename>sm_config_module</tablename>
+    </sys_metadata_link>
+</record_update>

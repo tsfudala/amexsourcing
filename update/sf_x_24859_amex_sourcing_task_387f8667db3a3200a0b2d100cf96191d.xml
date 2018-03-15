@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sf_x_24859_amex_sourcing_task">
+    <sf_x_24859_amex_sourcing_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>AMEX Sourcing Request State flow</comment>
+        <derived_from display_value="Reject">a1feb353df312100dca6a5f59bf263e4</derived_from>
+        <end_text>10</end_text>
+        <ending_state display_value="Pending Assignment">7a6f0667db3a3200a0b2d100cf961909</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_24859_amex_sourcing_task">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script><![CDATA[action.setRedirectURL(current);
+current.assigned_to = '';
+current.acknowledged_on = new GlideDateTime();]]></manual_script>
+        <manual_string>(new sn_sm.SMConfiguration()).isEnabled(current, "accept_reject", false)</manual_string>
+        <name>Reject</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010107</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>16</start_text>
+        <starting_state display_value="Assigned">3e6f0667db3a3200a0b2d100cf96190d</starting_state>
+        <sys_class_name>sf_x_24859_amex_sourcing_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:20:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>387f8667db3a3200a0b2d100cf96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sf_x_24859_amex_sourcing_task_387f8667db3a3200a0b2d100cf96191d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:20:50</sys_updated_on>
+        <table>x_24859_amex_sourcing_task</table>
+        <translated_ending_state>Pending Assignment</translated_ending_state>
+        <translated_starting_state>Assigned</translated_starting_state>
+        <ui_action display_value="Reject">fc7f8667db3a3200a0b2d100cf96191d</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </sf_x_24859_amex_sourcing_task>
+</record_update>

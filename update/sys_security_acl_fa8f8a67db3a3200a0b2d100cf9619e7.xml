@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_24859_amex_sourcing_request.company">callerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Callers can edit the company field for AMEX Sourcing Request while the state is draft</description>
+        <name>x_24859_amex_sourcing_request.company</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[var sc = new sn_sm.SMConfiguration();
+var stateFlowsOff = !sc.isEnabled(current, 'use_sf');
+answer = stateFlowsOff || current.state == global.SMConstants.ORDER_DRAFT;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fa8f8a67db3a3200a0b2d100cf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24859_amex_sourcing_request.company</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_security_acl_fa8f8a67db3a3200a0b2d100cf9619e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ad9f8e67db3a3200a0b2d100cf9619ee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_m2m_group_dependency">
+    <sm_m2m_group_dependency action="INSERT_OR_UPDATE">
+        <assignment_group display_value="AMEX Sourcing Assignment" name="AMEX Sourcing Assignment">9d7fc667db3a3200a0b2d100cf961903</assignment_group>
+        <dispatch_group display_value="AMEX Sourcing Dispatchers" name="AMEX Sourcing Dispatchers">197fc667db3a3200a0b2d100cf96190b</dispatch_group>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:26</sys_created_on>
+        <sys_id>ad9f8e67db3a3200a0b2d100cf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:26</sys_updated_on>
+    </sm_m2m_group_dependency>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4a9fce67db3a3200a0b2d100cf9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-05-23 23:21:26</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_metadata_link_4a9fce67db3a3200a0b2d100cf9619a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:28</sys_updated_on>
+        <tablename>sm_m2m_group_dependency</tablename>
+    </sys_metadata_link>
+</record_update>

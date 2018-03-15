@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="task_sla">sla.collection=x_24859_amex_sourcing_request^EQ<item endquery="false" field="sla.collection" goto="false" newquery="false" operator="=" or="false" value="x_24859_amex_sourcing_request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>AMEX Sourcing users can read the records only if the SLA Table is x_24859_amex_sourcing_request</description>
+        <name>task_sla</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>238f0e67db3a3200a0b2d100cf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_sla</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_security_acl_238f0e67db3a3200a0b2d100cf96199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d89f4e67db3a3200a0b2d100cf96194e" sys_domain="global" table="x_24859_amex_sourcing_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-01 21:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66b5e2d6db07b200a0b2d100cf961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_24859_amex_sourcing_request" name="x_24859_amex_sourcing_request" sys_domain="global" view="Default view">d89f4e67db3a3200a0b2d100cf96194e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_24859_amex_sourcing_request" sys_domain="global" view="Default view">e6b5e2d6db07b200a0b2d100cf961971</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-01 21:01:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_24859_amex_sourcing_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-24 06:21:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d89f4e67db3a3200a0b2d100cf96194e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_24859_amex_sourcing_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d89f4e67db3a3200a0b2d100cf96194e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-01 21:01:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

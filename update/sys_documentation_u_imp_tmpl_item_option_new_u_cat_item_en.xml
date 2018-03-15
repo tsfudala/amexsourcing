@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_cat_item" label="Cat item" language="en" table="u_imp_tmpl_item_option_new">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_cat_item</element>
+            <help/>
+            <hint/>
+            <label>Cat item</label>
+            <language>en</language>
+            <name>u_imp_tmpl_item_option_new</name>
+            <plural>Cat items</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-01 17:08:01</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>9340751adb43b200a0b2d100cf9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cat item</sys_name>
+            <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_item_option_new_u_cat_item_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-01 17:08:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

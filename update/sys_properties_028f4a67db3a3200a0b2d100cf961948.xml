@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Disallow use of client-side global libraries</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_24859_amex_src.glide.script.block.client.globals</name>
+        <read_roles>x_24859_amex_src_admin</read_roles>
+        <suffix>glide.script.block.client.globals</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>028f4a67db3a3200a0b2d100cf961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24859_amex_src.glide.script.block.client.globals</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_properties_028f4a67db3a3200a0b2d100cf961948</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:11</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles>x_24859_amex_src_admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=028f4a67db3a3200a0b2d100cf961948"/>
+</record_update>

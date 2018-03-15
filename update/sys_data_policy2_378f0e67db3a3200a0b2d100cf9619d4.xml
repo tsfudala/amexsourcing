@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="kb_knowledge">kb_knowledge_base=3b8f0e67db3a3200a0b2d100cf9619d3^EQ<item display_table="kb_knowledge_base" display_value="AMEX Sourcing Knowledge" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="3b8f0e67db3a3200a0b2d100cf9619d3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>kb_knowledge</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Data policy for AMEX Sourcing Knowledge knowledge base</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:21:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>378f0e67db3a3200a0b2d100cf9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data policy for AMEX Sourcing Knowledge knowledge base</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_data_policy2_378f0e67db3a3200a0b2d100cf9619d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:21:19</sys_updated_on>
+    </sys_data_policy2>
+</record_update>

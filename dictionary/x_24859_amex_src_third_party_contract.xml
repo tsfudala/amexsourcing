@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="ast_contract" label="Third Party Contract" max_length="40" name="x_24859_amex_src_third_party_contract" type="collection"/>
+</database>

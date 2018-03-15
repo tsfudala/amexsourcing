@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="Amex Sourcing Request" max_length="40" name="x_24859_amex_sourcing_request" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Ariba Contract ID" max_length="40" name="x_24859_amex_src_ariba_contract_id" type="string"/>
+    </element>
+</database>

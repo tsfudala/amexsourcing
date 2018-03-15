@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sf_x_24859_amex_sourcing_request">
+    <sf_x_24859_amex_sourcing_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>AMEX Sourcing Request State flow</comment>
+        <derived_from display_value="Cancel">a5feb353df312100dca6a5f59bf263e3</derived_from>
+        <end_text>7</end_text>
+        <ending_state display_value="Cancelled">ba6f0667db3a3200a0b2d100cf961900</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_24859_amex_sourcing_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script><![CDATA[if (current.getValue("work_notes") == '' && (new sn_sm.SMConfiguration()).isEnabled(current, "mandatory_work_notes", "false")) {
+	gs.addErrorMessage('Provide a reason for cancellation in Work notes');
+	current.setAbortAction(true);
+	action.setRedirectURL(current);
+}]]></manual_script>
+        <manual_string>!current.isNewRecord() &amp;&amp; current.canWrite() &amp;&amp; !current.state.nil()</manual_string>
+        <name>Cancel</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010090</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>sf_x_24859_amex_sourcing_request</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:20:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bb6f4667db3a3200a0b2d100cf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sf_x_24859_amex_sourcing_request_bb6f4667db3a3200a0b2d100cf96190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:20:46</sys_updated_on>
+        <table>x_24859_amex_sourcing_request</table>
+        <translated_ending_state>Cancelled</translated_ending_state>
+        <translated_starting_state/>
+        <ui_action display_value="Cancel">736f4667db3a3200a0b2d100cf96190b</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </sf_x_24859_amex_sourcing_request>
+</record_update>

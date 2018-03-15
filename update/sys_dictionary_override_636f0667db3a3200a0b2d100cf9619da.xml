@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes>base_table=x_24859_amex_sourcing_task</attributes>
+        <attributes_override>true</attributes_override>
+        <base_table>sf_state_flow</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>x_24859_amex_sourcing_task</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>table</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>sf_x_24859_amex_sourcing_task</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 06:20:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>636f0667db3a3200a0b2d100cf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>table</sys_name>
+        <sys_package display_value="AMEX Sourcing" source="x_24859_amex_src">0e6fcee3db3a3200a0b2d100cf96196f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AMEX Sourcing">0e6fcee3db3a3200a0b2d100cf96196f</sys_scope>
+        <sys_update_name>sys_dictionary_override_636f0667db3a3200a0b2d100cf9619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-24 06:20:44</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>
